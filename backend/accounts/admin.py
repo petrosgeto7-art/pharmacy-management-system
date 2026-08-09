@@ -16,7 +16,7 @@ class RoleAdmin(admin.ModelAdmin):
 @admin.register(User)
 class CustomUserAdmin(admin.ModelAdmin):
     list_display = ('username', 'email', 'first_name', 'last_name', 'role', 'is_active', 'is_admin')
-    list_filter = ('role', 'is_active', 'is_admin', 'is_staff')
+    list_filter = ('role', 'is_active', 'is_staff')
     search_fields = ('username', 'email', 'first_name', 'last_name')
     ordering = ('-date_joined',)
     readonly_fields = ('date_joined', 'last_login')
