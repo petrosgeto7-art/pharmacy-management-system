@@ -10,10 +10,24 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@hookform/resolvers": "^5.7.1",
+    "@tanstack/react-query": "^5.101.4",
+    "autoprefixer": "^10.5.4",
+    "axios": "^1.19.0",
+    "jwt-decode": "^4.0.0",
+    "lucide-react": "^1.30.0",
+    "postcss": "^8.5.26",
     "react": "^19.2.8",
-    "react-dom": "^19.2.8"
+    "react-dom": "^19.2.8",
+    "react-hook-form": "^7.85.0",
+    "react-router-dom": "^7.18.2",
+    "recharts": "^3.10.1",
+    "tailwindcss": "^4.3.3",
+    "zod": "^4.4.3"
   },
   "devDependencies": {
+    "@rolldown/binding-win32-x64-msvc": "^1.2.3",
+    "@tailwindcss/postcss": "^4.3.3",
     "@types/node": "^24.13.3",
     "@types/react": "^19.2.17",
     "@types/react-dom": "^19.2.3",
