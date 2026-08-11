@@ -17,3 +17,5 @@ def main():
 
 if __name__ == '__main__':
     main()
+
+# Ensure virtual environment is activated before running
