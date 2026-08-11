@@ -1,3 +1,7 @@
-## Code of Conduct
+## Pull Requests
 
-Please note that this project is released with a Contributor Code of Conduct.
+1. Fork the repo
+2. Create a branch
+3. Commit your changes
+4. Push to branch
+5. Create a Pull Request.
